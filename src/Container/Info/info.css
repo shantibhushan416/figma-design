@@ -1,0 +1,39 @@
+.icon {
+  color: #800080;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  padding: 12px;
+  list-style: none;
+  background-color: rgb(244, 237, 237);
+}
+.p2 {
+  color: #800080;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.p1Money {
+  color: 000000;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  margin-bottom: 2rem;
+  color: #800080;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+.heading {
+  color: #000000;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.para {
+  color: #000000;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
