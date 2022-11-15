@@ -7,10 +7,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { Terms } from "../../Component/Common/Common2";
 import "./info.css";
 
 const Info = () => {
+  const navigate = useNavigate();
   return (
     <div
       className="  d-flex flex-column  justify-items-center  "
@@ -24,27 +26,34 @@ const Info = () => {
           fontFamily: "'Poppins', sans-serif",
           listStyle: "none",
           cursor: "pointer",
-          marginTop: "6rem",
+          marginTop: "5rem",
         }}
       >
         UI/UX {">"} Refers & Earn
       </li>
-      <div class="container " style={{ marginTop: "2rem" }}>
-        <div class="row">
+
+      <div class="container p-0 m-2 mt-4" style={{ marginTop: "2rem" }}>
+        <div class="row ">
           <div class="col-6 col-md-3">
             <p className="p2">Referral Earnings</p>
             <p className="p1Money">₹ 500</p>
           </div>
-          <div class="col-6 col-md-3">
+          <div class="col-6 col-md-3 ">
             <p className="p2">Total Referrals</p>
             <p className="p1Money">₹ 700</p>
+            <span
+              class="badge rounded-pill pt-2 pb-2 pe-4 ps-4"
+              style={{ background: "#800080" }}
+            >
+              Withdraw Balance
+            </span>
           </div>
           <div class="col-6 col-md-3">
             <p className="p2">Wallet Balance</p>
             <p className="p1Money">₹ 500</p>
           </div>
 
-          <div class="col-6 col-md-3" style={{ marginLeft: "0rem" }}>
+          <div class="col-6 col-md-3 " style={{ marginLeft: "0rem" }}>
             <label
               style={{
                 color: "#800080",
@@ -68,7 +77,7 @@ const Info = () => {
           </div>
         </div>
       </div>
-      <div class="container-fluid " style={{ marginTop: "2rem" }}>
+      <div class="container-fluid p-0" style={{ marginTop: "2rem" }}>
         <h1 className="header">How does it work ?</h1>
         <div class="container ">
           <div class="row">

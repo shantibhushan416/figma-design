@@ -20,15 +20,16 @@ export const Home = () => {
           fontSize: "16px ",
           fontFamily: "'Poppins', sans-serif",
           listStyle: "none",
+          marginBottom: "1rem",
           cursor: "pointer",
-          marginTop: "1rem",
-          paddingBottom: "1rem",
         }}
         onClick={() => navigate("/info")}
       >
         UI/UX {">"} Refers & Earn {">"} <em>Friends Referred</em>
       </li>
-
+      <h1 onClick={() => navigate(-1)} className="back">
+        Go Back -{">"}
+      </h1>
       <div class="container-fluid d-flex flex-row justify-content-between mt-2">
         <div style={{ marginRight: "3px" }}>
           <label

@@ -4,6 +4,19 @@
   margin-bottom: 2rem;
   color: white;
 }
+.back {
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  color: #800080;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+@media (min-width: 800px) {
+  .back {
+    display: none;
+  }
+}
 
 .main {
   padding: 5rem 4rem;
