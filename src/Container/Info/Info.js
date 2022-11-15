@@ -7,12 +7,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { useNavigate } from "react-router-dom";
+
 import { Terms } from "../../Component/Common/Common2";
 import "./info.css";
 
 const Info = () => {
-  const navigate = useNavigate();
   return (
     <div
       className="  d-flex flex-column  justify-items-center  "

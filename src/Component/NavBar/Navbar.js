@@ -21,10 +21,10 @@ export const Navbar = () => {
         <div class="container-fluid " style={{ padding: "0.5rem 3rem" }}>
           <div class="d-flex flex-row justify-content-center">
             <Logo />
-            <p
+            <h1
               style={{
                 color: "#800080",
-                fontSize: "18px ",
+                fontSize: "20px ",
                 fontFamily: "'Poppins', sans-serif",
                 marginLeft: "5px",
               }}
@@ -32,7 +32,7 @@ export const Navbar = () => {
               href="#"
             >
               TuteDude
-            </p>
+            </h1>
           </div>
           <ul class="d-flex flex-row list-group-flush">
             <li className="p1">My Assignment</li>
